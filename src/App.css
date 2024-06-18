@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +25,7 @@ h1 {
 }
 
 .TodoWrapper {
-  background: #1A1A40;
+  background: #042700;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
@@ -38,12 +38,13 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #58ff90;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   width: 300px;
   color: #fff;
+  border-radius: 5px 0 0 5px;
 }
 
 .todo-input::placeholder {
@@ -51,11 +52,12 @@ h1 {
 }
 
 .todo-btn {
-  background: #8758ff;
+  background: #58ff90;
   color: #fff;
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+  border-radius: 0 5px 5px 0;
   
 }
 
@@ -63,7 +65,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
+  background: #58ff90;
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
